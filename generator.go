@@ -416,6 +416,7 @@ func (g *generator) getContainers() ([]*RuntimeContainer, error) {
 				MacAddress:          v.MacAddress,
 				GlobalIPv6PrefixLen: v.GlobalIPv6PrefixLen,
 				IPPrefixLen:         v.IPPrefixLen,
+				Aliases:             v.Aliases,
 			}
 
 			runtimeContainer.Networks = append(runtimeContainer.Networks,

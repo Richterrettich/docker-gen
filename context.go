@@ -69,6 +69,7 @@ type Network struct {
 	MacAddress          string
 	GlobalIPv6PrefixLen int
 	IPPrefixLen         int
+	Aliases             []string
 }
 
 type Volume struct {
